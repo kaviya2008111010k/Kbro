@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Group Broadcaster</title>
+</head>
+<body>
+  <h2>Send Group Message</h2>
+  <form action="/api/send" method="POST">
+    <label>Group ID or Invite Code:</label><br>
+    <input type="text" name="group" required><br><br>
+
+    <label>Message:</label><br>
+    <textarea name="message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</body>
+</html>
